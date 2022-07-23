@@ -6,12 +6,12 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="lush",
-    version="0.9.0",
+    version="0.9.1",
     author="Willem Pienaar",
     author_email="pypiorg@willem.co",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/woop/lush",
+    url="https://github.com/lush-dev/lush",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
